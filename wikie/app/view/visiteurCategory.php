@@ -22,31 +22,34 @@ include_once($_SERVER["DOCUMENT_ROOT"] . "/wikie/app/service/CategoryService.php
     <!-- Navigation -->
     <div class="bg-gray-100 px-2 lg:px-4 py-2 lg:py-10 sm:rounded-xl flex lg:flex-col justify-between">
     <nav class="flex items-center flex-row space-x-2 lg:space-x-0 lg:flex-col lg:space-y-2">
-                <div class="flex items-center">
-                    <img src="../../public/images/wikielogo.png" alt="Logo" class="w-16 h-16 ml-4">
-                
-                </div>
-                <a class="text-gray-500 p-4 inline-flex justify-center rounded-md hover:bg-gray-200 hover:text-gray-800 smooth-hover" href="../view/visiteur.php">
-                    Home
+                            <div class="flex items-center">
+                                <img src="../../public/images/wikielogo.png" alt="Logo" class="w-16 h-16 ml-4">
+                            
+                            </div>
+                            <a class="text-gray-500 p-4 inline-flex justify-center rounded-md hover:bg-gray-200 hover:text-gray-800 smooth-hover" href="../view/home.php">
+                                Home
+                                </a>
+                                <a class="text-gray-500 p-4 inline-flex justify-center rounded-md hover:bg-gray-200 hover:text-gray-800 smooth-hover" href="../view/visiteur.php">
+                                Latest
+                                </a>
+                                        <a class="text-gray-500 p-4 inline-flex justify-center rounded-md hover:bg-gray-200 hover:text-gray-800 smooth-hover" href="../view/visiteurWikis.php">
+                                Wikie
+                                </a>
+                    <!-- Active: bg-gray-800 text-white, Not active: text-white/50 -->
+                    <a class="text-gray-500 p-4 inline-flex justify-center rounded-md hover:bg-gray-200 hover:text-gray-800 smooth-hover"  href="../view/visiteurCategory.php">
+                    Category
                     </a>
-                            <a class="text-gray-500 p-4 inline-flex justify-center rounded-md hover:bg-gray-200 hover:text-gray-800 smooth-hover" href="../view/visiteurWikis.php">
-                    Wikie
+                    <a class="text-gray-500 p-4 inline-flex justify-center rounded-md hover:bg-gray-200 hover:text-gray-800 smooth-hover" href="../view/visiteurTag.php">
+                    Tags
                     </a>
-        <!-- Active: bg-gray-800 text-white, Not active: text-white/50 -->
-        <a class="text-gray-500 p-4 inline-flex justify-center rounded-md hover:bg-gray-200 hover:text-gray-800 smooth-hover"  href="../view/visiteurCategory.php">
-          Category
-        </a>
-        <a class="text-gray-500 p-4 inline-flex justify-center rounded-md hover:bg-gray-200 hover:text-gray-800 smooth-hover" href="../view/visiteurTag.php">
-        Tags
-        </a>
-        
-        <a class="text-gray-500 p-4 inline-flex justify-center rounded-md hover:bg-gray-200 hover:text-gray-800 smooth-hover" href="/wikie/public/login.php">
-          login
-        </a>
-        <a class="text-gray-500 p-4 inline-flex justify-center rounded-md hover:bg-gray-200 hover:text-gray-800 smooth-hover" href="/wikie/public/register.php">
-          Sign UP
-        </a>
-      </nav>
+                    
+                    <a class="text-gray-500 p-4 inline-flex justify-center rounded-md hover:bg-gray-200 hover:text-gray-800 smooth-hover" href="/wikie/public/login.php">
+                    login
+                    </a>
+                    <a class="text-gray-500 p-4 inline-flex justify-center rounded-md hover:bg-gray-200 hover:text-gray-800 smooth-hover" href="/wikie/public/register.php">
+                    Sign UP
+                    </a>
+                </nav>
      
      
     </div>
